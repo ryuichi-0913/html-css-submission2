@@ -30,7 +30,6 @@ main{
 .box:last-child {
 	margin-right: 0;
 }
-
 .box-img1{
 	height: 150px;
 	background-image: url(img/flow01.png);
@@ -79,23 +78,24 @@ footer{
 		width: 90%;
 		margin:20px auto;
 	}
-	.box{
-		margin-bottom: 0;
+	.box:last-child {
+	margin-right: auto;
 	}
+
 	.box-img1{
-		background-image: url(img2/flow01.png);
+		background-image: url(img/flow01.png);
 		height: 150px;
 		width: 100%
 	}
 
 	.box-img2{
-		background-image: url(img2/flow02.png);
+		background-image: url(img/flow02.png);
 		height: 150px;
 		width: 100%;
 	}
 
 	.box-img3{
-		background-image: url(img2/flow03.png);
+		background-image: url(img/flow03.png);
 		height: 150px;
 		width: 100%;
 	}
